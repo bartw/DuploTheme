@@ -1,0 +1,79 @@
+/*
+Theme Name: DuploTheme
+Theme URI: http://BeeWee.be
+Description: A custom theme for my site, very basic
+Author: Bart Wijnants
+Author URI: http://BeeWee.be
+Version: 0.1
+*/
+
+@import url('normalize.css');
+
+#wrapper
+{
+	margin: 0;
+    padding: 0;
+	color: #666;
+}
+
+#wrapper #header
+{
+    background: #111;
+	padding: 1em;
+}
+
+#wrapper #header h1
+{
+	margin: 0;
+}
+
+#wrapper #header h1 a
+{
+	color: inherit;
+    text-decoration: none;
+}
+
+#wrapper #blog
+{}
+
+#wrapper #blog .post
+{
+	margin: 1em;
+}
+
+#wrapper #blog .listPost
+{
+	border-top: 1px solid #666;
+}
+
+#wrapper #blog .post h3
+{
+}
+
+#wrapper #blog .post h3 a
+{
+	color: inherit;
+    text-decoration: none;
+}
+
+#wrapper #blog .post  .entry
+{}
+
+#wrapper #blog .post  .entry img
+{
+	max-width: 75%;
+}
+
+#wrapper #footer
+{
+	text-align: center;
+    background: #111;
+    padding: 1em;
+    font-size: 80%;
+}
+
+#wrapper #footer p a
+{
+	color: inherit;
+    text-decoration: none;
+}
