@@ -10,8 +10,6 @@
  
 	<?php	 
 		wp_head();
-		 
-		wp_get_archives('type=monthly&format=link');
 	?>
 </head>
 <body>
